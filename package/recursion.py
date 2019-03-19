@@ -23,8 +23,8 @@ def factorial( n ):
 
 def reverse( word ):
     '''Return word in reverse'''
-    if len( word ) == 0: # should the length of the word be 0, return an empty string
-        return ''
+    if word == '': # should the length of the word be 0, return an empty string
+        return word
     else: # add to the returned string, the last letter of the string and the reverse of the reverse
           #of the string excluding the first letter
         return word[-1] + reverse( word[:-1] )
