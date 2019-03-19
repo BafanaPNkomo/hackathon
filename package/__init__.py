@@ -1,1 +1,1 @@
-from . import hackathon-package
+from . import package
